@@ -4,3 +4,15 @@
     --color3:#EAE8DB;
     --color4:#FF8903;
 }
+
+#logo{
+    width: 20vh;
+}
+
+#v-navbar{
+    background-color: var(--color2);
+}
+
+.v-navbar{
+    flex-wrap: nowrap;
+}

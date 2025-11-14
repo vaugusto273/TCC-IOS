@@ -10,8 +10,37 @@
     <title>Snapps</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid" id="v-navbar">
+        <nav class="navbar navbar-expand-lg v-navbar">
+            <button class="btn btn-primary navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <a href="" class="navbar-brand"><img id="logo" src="./assets/snapps_logo.png" alt="Snapps Logo">
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
 
+        <!--Off Canvas-->
+        <div class="offcanvas offcanvas-start offcanvas-lg" id="demo">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Heading</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Some text lorem ipsum.</p>
+                <p>Some text lorem ipsum.</p>
+                <p>Some text lorem ipsum.</p>
+                <button class="btn btn-secondary" type="button">A Button</button>
+            </div>
+        </div>
+        <!---->
     </header>
     <main class="container">
         <section class="container">
